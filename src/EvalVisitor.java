@@ -65,7 +65,7 @@ public class EvalVisitor extends MRMBaseVisitor<Integer> {
 
     @Override
     public Integer visitParens(@NotNull MRMParser.ParensContext ctx) {
-        return super.visitParens(ctx); //vaja teha
+        return visit(ctx.getChild(1));
     }
 
     @Override
