@@ -1,4 +1,4 @@
-// Generated from D:/akt\MRM.g4 by ANTLR 4.x
+// Generated from C:/Users/Martin/Documents/akt\MRM.g4 by ANTLR 4.x
 import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
