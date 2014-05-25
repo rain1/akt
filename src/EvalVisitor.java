@@ -19,7 +19,8 @@ public class EvalVisitor extends MRMBaseVisitor<Object> {
     }
 
     public int getGlobalInt(String name){
-        return  (Integer)map.get(name);
+        Double ret =  (Double)map.get(name);
+        return  ret.intValue();
     }
 
     public double getGlobalDouble(String name){

@@ -32,6 +32,6 @@ public class Main {
         call(eval, "print(3+a-b);");
         call(eval,"u=atoi(charAt(\"Hello\",1));");
         call(eval, "print(u+3.14);");
-        System.out.println(eval.getGlobalDouble("u"));
+        System.out.println(eval.getGlobalInt("u"));
     }
 }
