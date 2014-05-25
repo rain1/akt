@@ -44,6 +44,37 @@ public class EvalVisitor extends MRMBaseVisitor<Integer> {
         return null;
     }
 
+    public Integer visitArvLit(@NotNull MRMParser.ArvLitContext ctx){
+        return  Integer.parseInt(ctx.Arvuliteraal().getText());
+    }
 
+    @Override
+    public Integer visitNimiLit(@NotNull MRMParser.NimiLitContext ctx) {
+        return map.get(ctx.Nimi().getText());
+    }
 
+    @Override
+    public Integer visitLiitmineLahutamine(@NotNull MRMParser.LiitmineLahutamineContext ctx) {
+        int vasak = visit(ctx.avaldis4());
+        int parem = visit(ctx.avaldis3());
+        if (ctx.getChild(1).getText().equals("+")){
+            return vasak+parem;
+        }
+        return vasak-parem;
+    }
+
+    @Override
+    public Integer visitParens(@NotNull MRMParser.ParensContext ctx) {
+        return super.visitParens(ctx); //vaja teha
+    }
+
+    @Override
+    public Integer visitKorrutamineJagamine(@NotNull MRMParser.KorrutamineJagamineContext ctx) {
+        int vasak = visit(ctx.avaldis3());
+        int parem = visit(ctx.avaldis2());
+        if (ctx.getChild(1).getText().equals("*")){
+            return vasak*parem;
+        }
+        return vasak/parem;
+    }
 }
