@@ -1,7 +1,6 @@
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
-import java.io.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,7 +11,8 @@ public class Main {
         String inputFile = "input.akt";
         //if ( args.length>0 ) inputFile = "input.akt";
         //File f = new File(filePathString);
-        //System.out.println("ptsi"+ (new File(inputFile)).exists());
+        Object a= '\n';
+        System.out.println("ptsi"+ a.getClass());
         InputStream is = System.in;
         if ( inputFile!=null ) is = new FileInputStream(inputFile);
         ANTLRInputStream input = new ANTLRInputStream(is);
@@ -22,6 +22,8 @@ public class Main {
         ParseTree tree = parser.programm(); // parse
         System.out.println(tree.toStringTree(parser));
         EvalVisitor eval = new EvalVisitor();
+        eval.setGlobal("u",2.79);
         eval.visit(tree);
+        System.out.println("asdf"+ eval.getGlobalDouble("n"));
     }
 }
