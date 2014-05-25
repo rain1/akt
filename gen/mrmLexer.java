@@ -1,4 +1,4 @@
-// Generated from E:/akt\mrm.g4 by ANTLR 4.x
+// Generated from D:/akt\MRM.g4 by ANTLR 4.x
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -9,7 +9,7 @@ import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
-public class mrmLexer extends Lexer {
+public class MRMLexer extends Lexer {
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
@@ -37,13 +37,13 @@ public class mrmLexer extends Lexer {
 	};
 
 
-	public mrmLexer(CharStream input) {
+	public MRMLexer(CharStream input) {
 		super(input);
 		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
 	@Override
-	public String getGrammarFileName() { return "mrm.g4"; }
+	public String getGrammarFileName() { return "MRM.g4"; }
 
 	@Override
 	public String[] getTokenNames() { return tokenNames; }

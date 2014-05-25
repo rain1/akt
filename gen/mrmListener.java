@@ -1,240 +1,240 @@
-// Generated from E:/akt\mrm.g4 by ANTLR 4.x
+// Generated from D:/akt\MRM.g4 by ANTLR 4.x
 import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
  * This interface defines a complete listener for a parse tree produced by
- * {@link mrmParser}.
+ * {@link MRMParser}.
  */
-public interface mrmListener extends ParseTreeListener {
+public interface MRMListener extends ParseTreeListener {
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#NimiLit}.
+	 * Enter a parse tree produced by {@link MRMParser#NimiLit}.
 	 * @param ctx the parse tree
 	 */
-	void enterNimiLit(@NotNull mrmParser.NimiLitContext ctx);
+	void enterNimiLit(@NotNull MRMParser.NimiLitContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#NimiLit}.
+	 * Exit a parse tree produced by {@link MRMParser#NimiLit}.
 	 * @param ctx the parse tree
 	 */
-	void exitNimiLit(@NotNull mrmParser.NimiLitContext ctx);
+	void exitNimiLit(@NotNull MRMParser.NimiLitContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#Vordlemine}.
+	 * Enter a parse tree produced by {@link MRMParser#Vordlemine}.
 	 * @param ctx the parse tree
 	 */
-	void enterVordlemine(@NotNull mrmParser.VordlemineContext ctx);
+	void enterVordlemine(@NotNull MRMParser.VordlemineContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#Vordlemine}.
+	 * Exit a parse tree produced by {@link MRMParser#Vordlemine}.
 	 * @param ctx the parse tree
 	 */
-	void exitVordlemine(@NotNull mrmParser.VordlemineContext ctx);
+	void exitVordlemine(@NotNull MRMParser.VordlemineContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#LiitmineLahutamine}.
+	 * Enter a parse tree produced by {@link MRMParser#LiitmineLahutamine}.
 	 * @param ctx the parse tree
 	 */
-	void enterLiitmineLahutamine(@NotNull mrmParser.LiitmineLahutamineContext ctx);
+	void enterLiitmineLahutamine(@NotNull MRMParser.LiitmineLahutamineContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#LiitmineLahutamine}.
+	 * Exit a parse tree produced by {@link MRMParser#LiitmineLahutamine}.
 	 * @param ctx the parse tree
 	 */
-	void exitLiitmineLahutamine(@NotNull mrmParser.LiitmineLahutamineContext ctx);
+	void exitLiitmineLahutamine(@NotNull MRMParser.LiitmineLahutamineContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#ifLause}.
+	 * Enter a parse tree produced by {@link MRMParser#ifLause}.
 	 * @param ctx the parse tree
 	 */
-	void enterIfLause(@NotNull mrmParser.IfLauseContext ctx);
+	void enterIfLause(@NotNull MRMParser.IfLauseContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#ifLause}.
+	 * Exit a parse tree produced by {@link MRMParser#ifLause}.
 	 * @param ctx the parse tree
 	 */
-	void exitIfLause(@NotNull mrmParser.IfLauseContext ctx);
+	void exitIfLause(@NotNull MRMParser.IfLauseContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#avaldis}.
+	 * Enter a parse tree produced by {@link MRMParser#avaldis}.
 	 * @param ctx the parse tree
 	 */
-	void enterAvaldis(@NotNull mrmParser.AvaldisContext ctx);
+	void enterAvaldis(@NotNull MRMParser.AvaldisContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#avaldis}.
+	 * Exit a parse tree produced by {@link MRMParser#avaldis}.
 	 * @param ctx the parse tree
 	 */
-	void exitAvaldis(@NotNull mrmParser.AvaldisContext ctx);
+	void exitAvaldis(@NotNull MRMParser.AvaldisContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#Parens}.
+	 * Enter a parse tree produced by {@link MRMParser#Parens}.
 	 * @param ctx the parse tree
 	 */
-	void enterParens(@NotNull mrmParser.ParensContext ctx);
+	void enterParens(@NotNull MRMParser.ParensContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#Parens}.
+	 * Exit a parse tree produced by {@link MRMParser#Parens}.
 	 * @param ctx the parse tree
 	 */
-	void exitParens(@NotNull mrmParser.ParensContext ctx);
+	void exitParens(@NotNull MRMParser.ParensContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#returnLause}.
+	 * Enter a parse tree produced by {@link MRMParser#returnLause}.
 	 * @param ctx the parse tree
 	 */
-	void enterReturnLause(@NotNull mrmParser.ReturnLauseContext ctx);
+	void enterReturnLause(@NotNull MRMParser.ReturnLauseContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#returnLause}.
+	 * Exit a parse tree produced by {@link MRMParser#returnLause}.
 	 * @param ctx the parse tree
 	 */
-	void exitReturnLause(@NotNull mrmParser.ReturnLauseContext ctx);
+	void exitReturnLause(@NotNull MRMParser.ReturnLauseContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#lause}.
+	 * Enter a parse tree produced by {@link MRMParser#lause}.
 	 * @param ctx the parse tree
 	 */
-	void enterLause(@NotNull mrmParser.LauseContext ctx);
+	void enterLause(@NotNull MRMParser.LauseContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#lause}.
+	 * Exit a parse tree produced by {@link MRMParser#lause}.
 	 * @param ctx the parse tree
 	 */
-	void exitLause(@NotNull mrmParser.LauseContext ctx);
+	void exitLause(@NotNull MRMParser.LauseContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#programm}.
+	 * Enter a parse tree produced by {@link MRMParser#programm}.
 	 * @param ctx the parse tree
 	 */
-	void enterProgramm(@NotNull mrmParser.ProgrammContext ctx);
+	void enterProgramm(@NotNull MRMParser.ProgrammContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#programm}.
+	 * Exit a parse tree produced by {@link MRMParser#programm}.
 	 * @param ctx the parse tree
 	 */
-	void exitProgramm(@NotNull mrmParser.ProgrammContext ctx);
+	void exitProgramm(@NotNull MRMParser.ProgrammContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#FunktsiooniValjakutse}.
+	 * Enter a parse tree produced by {@link MRMParser#FunktsiooniValjakutse}.
 	 * @param ctx the parse tree
 	 */
-	void enterFunktsiooniValjakutse(@NotNull mrmParser.FunktsiooniValjakutseContext ctx);
+	void enterFunktsiooniValjakutse(@NotNull MRMParser.FunktsiooniValjakutseContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#FunktsiooniValjakutse}.
+	 * Exit a parse tree produced by {@link MRMParser#FunktsiooniValjakutse}.
 	 * @param ctx the parse tree
 	 */
-	void exitFunktsiooniValjakutse(@NotNull mrmParser.FunktsiooniValjakutseContext ctx);
+	void exitFunktsiooniValjakutse(@NotNull MRMParser.FunktsiooniValjakutseContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#UnaarneMiinus}.
+	 * Enter a parse tree produced by {@link MRMParser#UnaarneMiinus}.
 	 * @param ctx the parse tree
 	 */
-	void enterUnaarneMiinus(@NotNull mrmParser.UnaarneMiinusContext ctx);
+	void enterUnaarneMiinus(@NotNull MRMParser.UnaarneMiinusContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#UnaarneMiinus}.
+	 * Exit a parse tree produced by {@link MRMParser#UnaarneMiinus}.
 	 * @param ctx the parse tree
 	 */
-	void exitUnaarneMiinus(@NotNull mrmParser.UnaarneMiinusContext ctx);
+	void exitUnaarneMiinus(@NotNull MRMParser.UnaarneMiinusContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#KorrutamineJagamine}.
+	 * Enter a parse tree produced by {@link MRMParser#KorrutamineJagamine}.
 	 * @param ctx the parse tree
 	 */
-	void enterKorrutamineJagamine(@NotNull mrmParser.KorrutamineJagamineContext ctx);
+	void enterKorrutamineJagamine(@NotNull MRMParser.KorrutamineJagamineContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#KorrutamineJagamine}.
+	 * Exit a parse tree produced by {@link MRMParser#KorrutamineJagamine}.
 	 * @param ctx the parse tree
 	 */
-	void exitKorrutamineJagamine(@NotNull mrmParser.KorrutamineJagamineContext ctx);
+	void exitKorrutamineJagamine(@NotNull MRMParser.KorrutamineJagamineContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#SoneLit}.
+	 * Enter a parse tree produced by {@link MRMParser#SoneLit}.
 	 * @param ctx the parse tree
 	 */
-	void enterSoneLit(@NotNull mrmParser.SoneLitContext ctx);
+	void enterSoneLit(@NotNull MRMParser.SoneLitContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#SoneLit}.
+	 * Exit a parse tree produced by {@link MRMParser#SoneLit}.
 	 * @param ctx the parse tree
 	 */
-	void exitSoneLit(@NotNull mrmParser.SoneLitContext ctx);
+	void exitSoneLit(@NotNull MRMParser.SoneLitContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#ArvLit}.
+	 * Enter a parse tree produced by {@link MRMParser#ArvLit}.
 	 * @param ctx the parse tree
 	 */
-	void enterArvLit(@NotNull mrmParser.ArvLitContext ctx);
+	void enterArvLit(@NotNull MRMParser.ArvLitContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#ArvLit}.
+	 * Exit a parse tree produced by {@link MRMParser#ArvLit}.
 	 * @param ctx the parse tree
 	 */
-	void exitArvLit(@NotNull mrmParser.ArvLitContext ctx);
+	void exitArvLit(@NotNull MRMParser.ArvLitContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#funktsioon}.
+	 * Enter a parse tree produced by {@link MRMParser#funktsioon}.
 	 * @param ctx the parse tree
 	 */
-	void enterFunktsioon(@NotNull mrmParser.FunktsioonContext ctx);
+	void enterFunktsioon(@NotNull MRMParser.FunktsioonContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#funktsioon}.
+	 * Exit a parse tree produced by {@link MRMParser#funktsioon}.
 	 * @param ctx the parse tree
 	 */
-	void exitFunktsioon(@NotNull mrmParser.FunktsioonContext ctx);
+	void exitFunktsioon(@NotNull MRMParser.FunktsioonContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#muutujaDeklaratsioon}.
+	 * Enter a parse tree produced by {@link MRMParser#muutujaDeklaratsioon}.
 	 * @param ctx the parse tree
 	 */
-	void enterMuutujaDeklaratsioon(@NotNull mrmParser.MuutujaDeklaratsioonContext ctx);
+	void enterMuutujaDeklaratsioon(@NotNull MRMParser.MuutujaDeklaratsioonContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#muutujaDeklaratsioon}.
+	 * Exit a parse tree produced by {@link MRMParser#muutujaDeklaratsioon}.
 	 * @param ctx the parse tree
 	 */
-	void exitMuutujaDeklaratsioon(@NotNull mrmParser.MuutujaDeklaratsioonContext ctx);
+	void exitMuutujaDeklaratsioon(@NotNull MRMParser.MuutujaDeklaratsioonContext ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#TriviaalneAvaldis5}.
+	 * Enter a parse tree produced by {@link MRMParser#TriviaalneAvaldis5}.
 	 * @param ctx the parse tree
 	 */
-	void enterTriviaalneAvaldis5(@NotNull mrmParser.TriviaalneAvaldis5Context ctx);
+	void enterTriviaalneAvaldis5(@NotNull MRMParser.TriviaalneAvaldis5Context ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#TriviaalneAvaldis5}.
+	 * Exit a parse tree produced by {@link MRMParser#TriviaalneAvaldis5}.
 	 * @param ctx the parse tree
 	 */
-	void exitTriviaalneAvaldis5(@NotNull mrmParser.TriviaalneAvaldis5Context ctx);
+	void exitTriviaalneAvaldis5(@NotNull MRMParser.TriviaalneAvaldis5Context ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#TriviaalneAvaldis4}.
+	 * Enter a parse tree produced by {@link MRMParser#TriviaalneAvaldis4}.
 	 * @param ctx the parse tree
 	 */
-	void enterTriviaalneAvaldis4(@NotNull mrmParser.TriviaalneAvaldis4Context ctx);
+	void enterTriviaalneAvaldis4(@NotNull MRMParser.TriviaalneAvaldis4Context ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#TriviaalneAvaldis4}.
+	 * Exit a parse tree produced by {@link MRMParser#TriviaalneAvaldis4}.
 	 * @param ctx the parse tree
 	 */
-	void exitTriviaalneAvaldis4(@NotNull mrmParser.TriviaalneAvaldis4Context ctx);
+	void exitTriviaalneAvaldis4(@NotNull MRMParser.TriviaalneAvaldis4Context ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#TriviaalneAvaldis3}.
+	 * Enter a parse tree produced by {@link MRMParser#TriviaalneAvaldis3}.
 	 * @param ctx the parse tree
 	 */
-	void enterTriviaalneAvaldis3(@NotNull mrmParser.TriviaalneAvaldis3Context ctx);
+	void enterTriviaalneAvaldis3(@NotNull MRMParser.TriviaalneAvaldis3Context ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#TriviaalneAvaldis3}.
+	 * Exit a parse tree produced by {@link MRMParser#TriviaalneAvaldis3}.
 	 * @param ctx the parse tree
 	 */
-	void exitTriviaalneAvaldis3(@NotNull mrmParser.TriviaalneAvaldis3Context ctx);
+	void exitTriviaalneAvaldis3(@NotNull MRMParser.TriviaalneAvaldis3Context ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#TriviaalneAvaldis2}.
+	 * Enter a parse tree produced by {@link MRMParser#TriviaalneAvaldis2}.
 	 * @param ctx the parse tree
 	 */
-	void enterTriviaalneAvaldis2(@NotNull mrmParser.TriviaalneAvaldis2Context ctx);
+	void enterTriviaalneAvaldis2(@NotNull MRMParser.TriviaalneAvaldis2Context ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#TriviaalneAvaldis2}.
+	 * Exit a parse tree produced by {@link MRMParser#TriviaalneAvaldis2}.
 	 * @param ctx the parse tree
 	 */
-	void exitTriviaalneAvaldis2(@NotNull mrmParser.TriviaalneAvaldis2Context ctx);
+	void exitTriviaalneAvaldis2(@NotNull MRMParser.TriviaalneAvaldis2Context ctx);
 
 	/**
-	 * Enter a parse tree produced by {@link mrmParser#TriviaalneAvaldis1}.
+	 * Enter a parse tree produced by {@link MRMParser#TriviaalneAvaldis1}.
 	 * @param ctx the parse tree
 	 */
-	void enterTriviaalneAvaldis1(@NotNull mrmParser.TriviaalneAvaldis1Context ctx);
+	void enterTriviaalneAvaldis1(@NotNull MRMParser.TriviaalneAvaldis1Context ctx);
 	/**
-	 * Exit a parse tree produced by {@link mrmParser#TriviaalneAvaldis1}.
+	 * Exit a parse tree produced by {@link MRMParser#TriviaalneAvaldis1}.
 	 * @param ctx the parse tree
 	 */
-	void exitTriviaalneAvaldis1(@NotNull mrmParser.TriviaalneAvaldis1Context ctx);
+	void exitTriviaalneAvaldis1(@NotNull MRMParser.TriviaalneAvaldis1Context ctx);
 }

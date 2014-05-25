@@ -1,159 +1,159 @@
-// Generated from E:/akt\mrm.g4 by ANTLR 4.x
+// Generated from D:/akt\MRM.g4 by ANTLR 4.x
 import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**
  * This interface defines a complete generic visitor for a parse tree produced
- * by {@link mrmParser}.
+ * by {@link MRMParser}.
  *
  * @param <T> The return type of the visit operation. Use {@link Void} for
  * operations with no return type.
  */
-public interface mrmVisitor<T> extends ParseTreeVisitor<T> {
+public interface MRMVisitor<T> extends ParseTreeVisitor<T> {
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#NimiLit}.
+	 * Visit a parse tree produced by {@link MRMParser#NimiLit}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitNimiLit(@NotNull mrmParser.NimiLitContext ctx);
+	T visitNimiLit(@NotNull MRMParser.NimiLitContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#Vordlemine}.
+	 * Visit a parse tree produced by {@link MRMParser#Vordlemine}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitVordlemine(@NotNull mrmParser.VordlemineContext ctx);
+	T visitVordlemine(@NotNull MRMParser.VordlemineContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#LiitmineLahutamine}.
+	 * Visit a parse tree produced by {@link MRMParser#LiitmineLahutamine}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitLiitmineLahutamine(@NotNull mrmParser.LiitmineLahutamineContext ctx);
+	T visitLiitmineLahutamine(@NotNull MRMParser.LiitmineLahutamineContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#ifLause}.
+	 * Visit a parse tree produced by {@link MRMParser#ifLause}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitIfLause(@NotNull mrmParser.IfLauseContext ctx);
+	T visitIfLause(@NotNull MRMParser.IfLauseContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#avaldis}.
+	 * Visit a parse tree produced by {@link MRMParser#avaldis}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitAvaldis(@NotNull mrmParser.AvaldisContext ctx);
+	T visitAvaldis(@NotNull MRMParser.AvaldisContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#Parens}.
+	 * Visit a parse tree produced by {@link MRMParser#Parens}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitParens(@NotNull mrmParser.ParensContext ctx);
+	T visitParens(@NotNull MRMParser.ParensContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#returnLause}.
+	 * Visit a parse tree produced by {@link MRMParser#returnLause}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitReturnLause(@NotNull mrmParser.ReturnLauseContext ctx);
+	T visitReturnLause(@NotNull MRMParser.ReturnLauseContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#lause}.
+	 * Visit a parse tree produced by {@link MRMParser#lause}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitLause(@NotNull mrmParser.LauseContext ctx);
+	T visitLause(@NotNull MRMParser.LauseContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#programm}.
+	 * Visit a parse tree produced by {@link MRMParser#programm}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitProgramm(@NotNull mrmParser.ProgrammContext ctx);
+	T visitProgramm(@NotNull MRMParser.ProgrammContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#FunktsiooniValjakutse}.
+	 * Visit a parse tree produced by {@link MRMParser#FunktsiooniValjakutse}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitFunktsiooniValjakutse(@NotNull mrmParser.FunktsiooniValjakutseContext ctx);
+	T visitFunktsiooniValjakutse(@NotNull MRMParser.FunktsiooniValjakutseContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#UnaarneMiinus}.
+	 * Visit a parse tree produced by {@link MRMParser#UnaarneMiinus}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitUnaarneMiinus(@NotNull mrmParser.UnaarneMiinusContext ctx);
+	T visitUnaarneMiinus(@NotNull MRMParser.UnaarneMiinusContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#KorrutamineJagamine}.
+	 * Visit a parse tree produced by {@link MRMParser#KorrutamineJagamine}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitKorrutamineJagamine(@NotNull mrmParser.KorrutamineJagamineContext ctx);
+	T visitKorrutamineJagamine(@NotNull MRMParser.KorrutamineJagamineContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#SoneLit}.
+	 * Visit a parse tree produced by {@link MRMParser#SoneLit}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitSoneLit(@NotNull mrmParser.SoneLitContext ctx);
+	T visitSoneLit(@NotNull MRMParser.SoneLitContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#ArvLit}.
+	 * Visit a parse tree produced by {@link MRMParser#ArvLit}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitArvLit(@NotNull mrmParser.ArvLitContext ctx);
+	T visitArvLit(@NotNull MRMParser.ArvLitContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#funktsioon}.
+	 * Visit a parse tree produced by {@link MRMParser#funktsioon}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitFunktsioon(@NotNull mrmParser.FunktsioonContext ctx);
+	T visitFunktsioon(@NotNull MRMParser.FunktsioonContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#muutujaDeklaratsioon}.
+	 * Visit a parse tree produced by {@link MRMParser#muutujaDeklaratsioon}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitMuutujaDeklaratsioon(@NotNull mrmParser.MuutujaDeklaratsioonContext ctx);
+	T visitMuutujaDeklaratsioon(@NotNull MRMParser.MuutujaDeklaratsioonContext ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#TriviaalneAvaldis5}.
+	 * Visit a parse tree produced by {@link MRMParser#TriviaalneAvaldis5}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitTriviaalneAvaldis5(@NotNull mrmParser.TriviaalneAvaldis5Context ctx);
+	T visitTriviaalneAvaldis5(@NotNull MRMParser.TriviaalneAvaldis5Context ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#TriviaalneAvaldis4}.
+	 * Visit a parse tree produced by {@link MRMParser#TriviaalneAvaldis4}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitTriviaalneAvaldis4(@NotNull mrmParser.TriviaalneAvaldis4Context ctx);
+	T visitTriviaalneAvaldis4(@NotNull MRMParser.TriviaalneAvaldis4Context ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#TriviaalneAvaldis3}.
+	 * Visit a parse tree produced by {@link MRMParser#TriviaalneAvaldis3}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitTriviaalneAvaldis3(@NotNull mrmParser.TriviaalneAvaldis3Context ctx);
+	T visitTriviaalneAvaldis3(@NotNull MRMParser.TriviaalneAvaldis3Context ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#TriviaalneAvaldis2}.
+	 * Visit a parse tree produced by {@link MRMParser#TriviaalneAvaldis2}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitTriviaalneAvaldis2(@NotNull mrmParser.TriviaalneAvaldis2Context ctx);
+	T visitTriviaalneAvaldis2(@NotNull MRMParser.TriviaalneAvaldis2Context ctx);
 
 	/**
-	 * Visit a parse tree produced by {@link mrmParser#TriviaalneAvaldis1}.
+	 * Visit a parse tree produced by {@link MRMParser#TriviaalneAvaldis1}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitTriviaalneAvaldis1(@NotNull mrmParser.TriviaalneAvaldis1Context ctx);
+	T visitTriviaalneAvaldis1(@NotNull MRMParser.TriviaalneAvaldis1Context ctx);
 }

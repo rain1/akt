@@ -1,4 +1,4 @@
-grammar mrm; //reflection 7. kodutoo
+grammar MRM; //reflection 7. kodutoo
 
 programm
     :   lause (lause)*

@@ -1,4 +1,4 @@
-// Generated from E:/akt\mrm.g4 by ANTLR 4.x
+// Generated from D:/akt\MRM.g4 by ANTLR 4.x
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.misc.NotNull;
@@ -6,283 +6,283 @@ import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link mrmListener},
+ * This class provides an empty implementation of {@link MRMListener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
-public class mrmBaseListener implements mrmListener {
+public class MRMBaseListener implements MRMListener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterNimiLit(@NotNull mrmParser.NimiLitContext ctx) { }
+	@Override public void enterNimiLit(@NotNull MRMParser.NimiLitContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitNimiLit(@NotNull mrmParser.NimiLitContext ctx) { }
+	@Override public void exitNimiLit(@NotNull MRMParser.NimiLitContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterVordlemine(@NotNull mrmParser.VordlemineContext ctx) { }
+	@Override public void enterVordlemine(@NotNull MRMParser.VordlemineContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitVordlemine(@NotNull mrmParser.VordlemineContext ctx) { }
+	@Override public void exitVordlemine(@NotNull MRMParser.VordlemineContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLiitmineLahutamine(@NotNull mrmParser.LiitmineLahutamineContext ctx) { }
+	@Override public void enterLiitmineLahutamine(@NotNull MRMParser.LiitmineLahutamineContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLiitmineLahutamine(@NotNull mrmParser.LiitmineLahutamineContext ctx) { }
+	@Override public void exitLiitmineLahutamine(@NotNull MRMParser.LiitmineLahutamineContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIfLause(@NotNull mrmParser.IfLauseContext ctx) { }
+	@Override public void enterIfLause(@NotNull MRMParser.IfLauseContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIfLause(@NotNull mrmParser.IfLauseContext ctx) { }
+	@Override public void exitIfLause(@NotNull MRMParser.IfLauseContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAvaldis(@NotNull mrmParser.AvaldisContext ctx) { }
+	@Override public void enterAvaldis(@NotNull MRMParser.AvaldisContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAvaldis(@NotNull mrmParser.AvaldisContext ctx) { }
+	@Override public void exitAvaldis(@NotNull MRMParser.AvaldisContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterParens(@NotNull mrmParser.ParensContext ctx) { }
+	@Override public void enterParens(@NotNull MRMParser.ParensContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitParens(@NotNull mrmParser.ParensContext ctx) { }
+	@Override public void exitParens(@NotNull MRMParser.ParensContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterReturnLause(@NotNull mrmParser.ReturnLauseContext ctx) { }
+	@Override public void enterReturnLause(@NotNull MRMParser.ReturnLauseContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitReturnLause(@NotNull mrmParser.ReturnLauseContext ctx) { }
+	@Override public void exitReturnLause(@NotNull MRMParser.ReturnLauseContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterLause(@NotNull mrmParser.LauseContext ctx) { }
+	@Override public void enterLause(@NotNull MRMParser.LauseContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitLause(@NotNull mrmParser.LauseContext ctx) { }
+	@Override public void exitLause(@NotNull MRMParser.LauseContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterProgramm(@NotNull mrmParser.ProgrammContext ctx) { }
+	@Override public void enterProgramm(@NotNull MRMParser.ProgrammContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitProgramm(@NotNull mrmParser.ProgrammContext ctx) { }
+	@Override public void exitProgramm(@NotNull MRMParser.ProgrammContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFunktsiooniValjakutse(@NotNull mrmParser.FunktsiooniValjakutseContext ctx) { }
+	@Override public void enterFunktsiooniValjakutse(@NotNull MRMParser.FunktsiooniValjakutseContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFunktsiooniValjakutse(@NotNull mrmParser.FunktsiooniValjakutseContext ctx) { }
+	@Override public void exitFunktsiooniValjakutse(@NotNull MRMParser.FunktsiooniValjakutseContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterUnaarneMiinus(@NotNull mrmParser.UnaarneMiinusContext ctx) { }
+	@Override public void enterUnaarneMiinus(@NotNull MRMParser.UnaarneMiinusContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitUnaarneMiinus(@NotNull mrmParser.UnaarneMiinusContext ctx) { }
+	@Override public void exitUnaarneMiinus(@NotNull MRMParser.UnaarneMiinusContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterKorrutamineJagamine(@NotNull mrmParser.KorrutamineJagamineContext ctx) { }
+	@Override public void enterKorrutamineJagamine(@NotNull MRMParser.KorrutamineJagamineContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitKorrutamineJagamine(@NotNull mrmParser.KorrutamineJagamineContext ctx) { }
+	@Override public void exitKorrutamineJagamine(@NotNull MRMParser.KorrutamineJagamineContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSoneLit(@NotNull mrmParser.SoneLitContext ctx) { }
+	@Override public void enterSoneLit(@NotNull MRMParser.SoneLitContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitSoneLit(@NotNull mrmParser.SoneLitContext ctx) { }
+	@Override public void exitSoneLit(@NotNull MRMParser.SoneLitContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterArvLit(@NotNull mrmParser.ArvLitContext ctx) { }
+	@Override public void enterArvLit(@NotNull MRMParser.ArvLitContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitArvLit(@NotNull mrmParser.ArvLitContext ctx) { }
+	@Override public void exitArvLit(@NotNull MRMParser.ArvLitContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterFunktsioon(@NotNull mrmParser.FunktsioonContext ctx) { }
+	@Override public void enterFunktsioon(@NotNull MRMParser.FunktsioonContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitFunktsioon(@NotNull mrmParser.FunktsioonContext ctx) { }
+	@Override public void exitFunktsioon(@NotNull MRMParser.FunktsioonContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMuutujaDeklaratsioon(@NotNull mrmParser.MuutujaDeklaratsioonContext ctx) { }
+	@Override public void enterMuutujaDeklaratsioon(@NotNull MRMParser.MuutujaDeklaratsioonContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMuutujaDeklaratsioon(@NotNull mrmParser.MuutujaDeklaratsioonContext ctx) { }
+	@Override public void exitMuutujaDeklaratsioon(@NotNull MRMParser.MuutujaDeklaratsioonContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTriviaalneAvaldis5(@NotNull mrmParser.TriviaalneAvaldis5Context ctx) { }
+	@Override public void enterTriviaalneAvaldis5(@NotNull MRMParser.TriviaalneAvaldis5Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTriviaalneAvaldis5(@NotNull mrmParser.TriviaalneAvaldis5Context ctx) { }
+	@Override public void exitTriviaalneAvaldis5(@NotNull MRMParser.TriviaalneAvaldis5Context ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTriviaalneAvaldis4(@NotNull mrmParser.TriviaalneAvaldis4Context ctx) { }
+	@Override public void enterTriviaalneAvaldis4(@NotNull MRMParser.TriviaalneAvaldis4Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTriviaalneAvaldis4(@NotNull mrmParser.TriviaalneAvaldis4Context ctx) { }
+	@Override public void exitTriviaalneAvaldis4(@NotNull MRMParser.TriviaalneAvaldis4Context ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTriviaalneAvaldis3(@NotNull mrmParser.TriviaalneAvaldis3Context ctx) { }
+	@Override public void enterTriviaalneAvaldis3(@NotNull MRMParser.TriviaalneAvaldis3Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTriviaalneAvaldis3(@NotNull mrmParser.TriviaalneAvaldis3Context ctx) { }
+	@Override public void exitTriviaalneAvaldis3(@NotNull MRMParser.TriviaalneAvaldis3Context ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTriviaalneAvaldis2(@NotNull mrmParser.TriviaalneAvaldis2Context ctx) { }
+	@Override public void enterTriviaalneAvaldis2(@NotNull MRMParser.TriviaalneAvaldis2Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTriviaalneAvaldis2(@NotNull mrmParser.TriviaalneAvaldis2Context ctx) { }
+	@Override public void exitTriviaalneAvaldis2(@NotNull MRMParser.TriviaalneAvaldis2Context ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTriviaalneAvaldis1(@NotNull mrmParser.TriviaalneAvaldis1Context ctx) { }
+	@Override public void enterTriviaalneAvaldis1(@NotNull MRMParser.TriviaalneAvaldis1Context ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTriviaalneAvaldis1(@NotNull mrmParser.TriviaalneAvaldis1Context ctx) { }
+	@Override public void exitTriviaalneAvaldis1(@NotNull MRMParser.TriviaalneAvaldis1Context ctx) { }
 
 	/**
 	 * {@inheritDoc}

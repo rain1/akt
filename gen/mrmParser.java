@@ -1,4 +1,4 @@
-// Generated from E:/akt\mrm.g4 by ANTLR 4.x
+// Generated from D:/akt\MRM.g4 by ANTLR 4.x
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
-public class mrmParser extends Parser {
+public class MRMParser extends Parser {
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
@@ -36,7 +36,7 @@ public class mrmParser extends Parser {
 	};
 
 	@Override
-	public String getGrammarFileName() { return "mrm.g4"; }
+	public String getGrammarFileName() { return "MRM.g4"; }
 
 	@Override
 	public String[] getTokenNames() { return tokenNames; }
@@ -50,7 +50,7 @@ public class mrmParser extends Parser {
 	@Override
 	public ATN getATN() { return _ATN; }
 
-	public mrmParser(TokenStream input) {
+	public MRMParser(TokenStream input) {
 		super(input);
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
@@ -67,15 +67,15 @@ public class mrmParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_programm; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterProgramm(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterProgramm(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitProgramm(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitProgramm(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitProgramm(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitProgramm(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -142,15 +142,15 @@ public class mrmParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_lause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterLause(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterLause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitLause(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitLause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitLause(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitLause(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -236,7 +236,7 @@ public class mrmParser extends Parser {
 	}
 
 	public static class MuutujaDeklaratsioonContext extends ParserRuleContext {
-		public TerminalNode Nimi() { return getToken(mrmParser.Nimi, 0); }
+		public TerminalNode Nimi() { return getToken(MRMParser.Nimi, 0); }
 		public AvaldisContext avaldis() {
 			return getRuleContext(AvaldisContext.class,0);
 		}
@@ -246,15 +246,15 @@ public class mrmParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_muutujaDeklaratsioon; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterMuutujaDeklaratsioon(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterMuutujaDeklaratsioon(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitMuutujaDeklaratsioon(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitMuutujaDeklaratsioon(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitMuutujaDeklaratsioon(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitMuutujaDeklaratsioon(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -297,15 +297,15 @@ public class mrmParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_ifLause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterIfLause(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterIfLause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitIfLause(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitIfLause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitIfLause(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitIfLause(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -352,12 +352,12 @@ public class mrmParser extends Parser {
 		public LauseContext lause(int i) {
 			return getRuleContext(LauseContext.class,i);
 		}
-		public List<TerminalNode> Nimi() { return getTokens(mrmParser.Nimi); }
+		public List<TerminalNode> Nimi() { return getTokens(MRMParser.Nimi); }
 		public List<LauseContext> lause() {
 			return getRuleContexts(LauseContext.class);
 		}
 		public TerminalNode Nimi(int i) {
-			return getToken(mrmParser.Nimi, i);
+			return getToken(MRMParser.Nimi, i);
 		}
 		public FunktsioonContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -365,15 +365,15 @@ public class mrmParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_funktsioon; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterFunktsioon(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterFunktsioon(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitFunktsioon(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitFunktsioon(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitFunktsioon(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitFunktsioon(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -449,15 +449,15 @@ public class mrmParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_avaldis; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterAvaldis(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterAvaldis(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitAvaldis(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitAvaldis(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitAvaldis(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitAvaldis(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -492,15 +492,15 @@ public class mrmParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_returnLause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterReturnLause(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterReturnLause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitReturnLause(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitReturnLause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitReturnLause(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitReturnLause(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -547,15 +547,15 @@ public class mrmParser extends Parser {
 		public VordlemineContext(Avaldis5Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterVordlemine(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterVordlemine(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitVordlemine(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitVordlemine(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitVordlemine(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitVordlemine(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -566,15 +566,15 @@ public class mrmParser extends Parser {
 		public TriviaalneAvaldis5Context(Avaldis5Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterTriviaalneAvaldis5(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterTriviaalneAvaldis5(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitTriviaalneAvaldis5(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitTriviaalneAvaldis5(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitTriviaalneAvaldis5(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitTriviaalneAvaldis5(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -642,15 +642,15 @@ public class mrmParser extends Parser {
 		public LiitmineLahutamineContext(Avaldis4Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterLiitmineLahutamine(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterLiitmineLahutamine(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitLiitmineLahutamine(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitLiitmineLahutamine(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitLiitmineLahutamine(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitLiitmineLahutamine(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -661,15 +661,15 @@ public class mrmParser extends Parser {
 		public TriviaalneAvaldis4Context(Avaldis4Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterTriviaalneAvaldis4(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterTriviaalneAvaldis4(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitTriviaalneAvaldis4(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitTriviaalneAvaldis4(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitTriviaalneAvaldis4(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitTriviaalneAvaldis4(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -756,15 +756,15 @@ public class mrmParser extends Parser {
 		public TriviaalneAvaldis3Context(Avaldis3Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterTriviaalneAvaldis3(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterTriviaalneAvaldis3(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitTriviaalneAvaldis3(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitTriviaalneAvaldis3(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitTriviaalneAvaldis3(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitTriviaalneAvaldis3(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -778,15 +778,15 @@ public class mrmParser extends Parser {
 		public KorrutamineJagamineContext(Avaldis3Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterKorrutamineJagamine(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterKorrutamineJagamine(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitKorrutamineJagamine(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitKorrutamineJagamine(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitKorrutamineJagamine(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitKorrutamineJagamine(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -873,15 +873,15 @@ public class mrmParser extends Parser {
 		public UnaarneMiinusContext(Avaldis2Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterUnaarneMiinus(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterUnaarneMiinus(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitUnaarneMiinus(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitUnaarneMiinus(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitUnaarneMiinus(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitUnaarneMiinus(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -892,15 +892,15 @@ public class mrmParser extends Parser {
 		public TriviaalneAvaldis2Context(Avaldis2Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterTriviaalneAvaldis2(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterTriviaalneAvaldis2(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitTriviaalneAvaldis2(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitTriviaalneAvaldis2(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitTriviaalneAvaldis2(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitTriviaalneAvaldis2(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -956,7 +956,7 @@ public class mrmParser extends Parser {
 		}
 	}
 	public static class FunktsiooniValjakutseContext extends Avaldis1Context {
-		public TerminalNode Nimi() { return getToken(mrmParser.Nimi, 0); }
+		public TerminalNode Nimi() { return getToken(MRMParser.Nimi, 0); }
 		public List<AvaldisContext> avaldis() {
 			return getRuleContexts(AvaldisContext.class);
 		}
@@ -966,15 +966,15 @@ public class mrmParser extends Parser {
 		public FunktsiooniValjakutseContext(Avaldis1Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterFunktsiooniValjakutse(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterFunktsiooniValjakutse(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitFunktsiooniValjakutse(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitFunktsiooniValjakutse(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitFunktsiooniValjakutse(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitFunktsiooniValjakutse(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -985,15 +985,15 @@ public class mrmParser extends Parser {
 		public TriviaalneAvaldis1Context(Avaldis1Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterTriviaalneAvaldis1(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterTriviaalneAvaldis1(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitTriviaalneAvaldis1(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitTriviaalneAvaldis1(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitTriviaalneAvaldis1(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitTriviaalneAvaldis1(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1069,36 +1069,36 @@ public class mrmParser extends Parser {
 		}
 	}
 	public static class NimiLitContext extends Avaldis0Context {
-		public TerminalNode Nimi() { return getToken(mrmParser.Nimi, 0); }
+		public TerminalNode Nimi() { return getToken(MRMParser.Nimi, 0); }
 		public NimiLitContext(Avaldis0Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterNimiLit(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterNimiLit(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitNimiLit(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitNimiLit(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitNimiLit(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitNimiLit(this);
 			else return visitor.visitChildren(this);
 		}
 	}
 	public static class SoneLitContext extends Avaldis0Context {
-		public TerminalNode Soneliteraal() { return getToken(mrmParser.Soneliteraal, 0); }
+		public TerminalNode Soneliteraal() { return getToken(MRMParser.Soneliteraal, 0); }
 		public SoneLitContext(Avaldis0Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterSoneLit(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterSoneLit(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitSoneLit(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitSoneLit(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitSoneLit(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitSoneLit(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1109,32 +1109,32 @@ public class mrmParser extends Parser {
 		public ParensContext(Avaldis0Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterParens(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterParens(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitParens(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitParens(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitParens(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitParens(this);
 			else return visitor.visitChildren(this);
 		}
 	}
 	public static class ArvLitContext extends Avaldis0Context {
-		public TerminalNode Arvuliteraal() { return getToken(mrmParser.Arvuliteraal, 0); }
+		public TerminalNode Arvuliteraal() { return getToken(MRMParser.Arvuliteraal, 0); }
 		public ArvLitContext(Avaldis0Context ctx) { copyFrom(ctx); }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).enterArvLit(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).enterArvLit(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof mrmListener ) ((mrmListener)listener).exitArvLit(this);
+			if ( listener instanceof MRMListener ) ((MRMListener)listener).exitArvLit(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof mrmVisitor ) return ((mrmVisitor<? extends T>)visitor).visitArvLit(this);
+			if ( visitor instanceof MRMVisitor ) return ((MRMVisitor<? extends T>)visitor).visitArvLit(this);
 			else return visitor.visitChildren(this);
 		}
 	}
