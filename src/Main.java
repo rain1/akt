@@ -15,7 +15,7 @@ public class Main {
 
     static EvalVisitor eval = new EvalVisitor();
 
-    public static void sisestus(EvalVisitor e, String s){
+    public static void call(EvalVisitor e, String s){
         ANTLRInputStream input = new ANTLRInputStream(s);
         MRMLexer lexer = new MRMLexer(input);
         CommonTokenStream tokens = new CommonTokenStream(lexer);
@@ -25,15 +25,13 @@ public class Main {
         e.visit(tree);
     }
 
-    public static void addArg(String key, Double value){
-        eval.setGlobal(key, value);
-    }
 
     public static void main(String[] args) throws IOException {
-        addArg("a", 2.0);
-        addArg("b", 4.0);
-        sisestus(eval, "print(3+a-b);");
-        sisestus(eval,"u=atoi(charAt(\"Hello\",1));");
-        sisestus(eval, "print(u+3.14);");
+        eval.setGlobal("a", 2.0);
+        eval.setGlobal("b", 4.0);
+        call(eval, "print(3+a-b);");
+        call(eval,"u=atoi(charAt(\"Hello\",1));");
+        call(eval, "print(u+3.14);");
+        System.out.println(eval.getGlobalDouble("u"));
     }
 }
