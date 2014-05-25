@@ -1,3 +1,4 @@
+import com.sun.beans.editors.IntegerEditor;
 import org.antlr.v4.runtime.misc.NotNull;
 
 import java.util.HashMap;
@@ -45,6 +46,18 @@ public class EvalVisitor extends MRMBaseVisitor<Object> {
             System.out.println(value);
         }else if (fun.equalsIgnoreCase("add")){
             return (Double)visit(ctx.avaldis(0))+(Double)visit(ctx.avaldis(1));
+        }
+        else if (fun.equalsIgnoreCase("charAt")){
+            String str = (String)visit(ctx.avaldis(0));
+            Double dpos =  (Double)visit(ctx.avaldis(1));
+            int pos = dpos.intValue();
+            return  String.valueOf(str.charAt(pos));
+        }else if (fun.equalsIgnoreCase("atoi")){
+            String schr = (String)visit(ctx.avaldis(0));
+            char chr = schr.charAt(0);
+            int id = (int)chr;
+            double did = (double)id;
+            return (Double) did;
         }
         return super.visitFunktsiooniValjakutse(ctx);
     }
