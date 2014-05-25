@@ -26,8 +26,8 @@
       <file leaf-file-name="MRM.g4" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MRM.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1547">
+              <caret line="44" column="16" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -48,9 +48,14 @@
       <file leaf-file-name="EvalVisitor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6542373" vertical-offset="464" max-vertical-offset="1054">
-              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-              <folding />
+            <state vertical-scroll-proportion="0.5966102" vertical-offset="702" max-vertical-offset="1377">
+              <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+              <folding>
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1987#1988#0" expanded="true" />
+                <element signature="e#2044#2045#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -396,7 +401,7 @@
       <window_info id="ANTLR Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3226164" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="ANTLR Parse Tree" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31485587" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21640626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31485587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31485587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -508,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MRM.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1547">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -526,9 +531,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6542373" vertical-offset="464" max-vertical-offset="1054">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.5966102" vertical-offset="702" max-vertical-offset="1377">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+          <folding>
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2044#2045#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
