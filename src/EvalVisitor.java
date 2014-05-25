@@ -43,6 +43,8 @@ public class EvalVisitor extends MRMBaseVisitor<Object> {
         if (fun.equalsIgnoreCase("print")) {
             Object value = visit(ctx.avaldis(0));
             System.out.println(value);
+        }else if (fun.equalsIgnoreCase("add")){
+            return (Double)visit(ctx.avaldis(0))+(Double)visit(ctx.avaldis(1));
         }
         return super.visitFunktsiooniValjakutse(ctx);
     }
