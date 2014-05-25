@@ -41,9 +41,21 @@ public class EvalVisitor extends MRMBaseVisitor<Integer> {
         if (ctx.avaldis() != null)
             value = visit(ctx.avaldis());
         map.put(muutuja, value);
+        System.out.println("tra"+value);
         return null;
     }
 
+    public Integer visitArvLit(@NotNull MRMParser.ArvLitContext ctx){
+        return  Integer.parseInt(ctx.Arvuliteraal().getText());
+    }
 
-
+    @Override
+    public Integer visitLiitmineLahutamine(@NotNull MRMParser.LiitmineLahutamineContext ctx) {
+        int vasak = visit(ctx.avaldis4());
+        int parem = visit(ctx.avaldis3());
+        if (ctx.getChild(1).getText().equals("+")){
+            return vasak+parem;
+        }
+        return vasak-parem;
+    }
 }
